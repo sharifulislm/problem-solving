@@ -8,4 +8,4 @@ function pizzaPanda(foodname, quantity) {
     return massage
 }
 
-console.log(pizzaPanda( "pizza" ,5 ) );
+console.log(pizzaPanda( "pizza" ,20 ) );
