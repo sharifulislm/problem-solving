@@ -1,11 +1,11 @@
-function pizzaPanda(foodname, quantity) {
-    if (foodname.toLowerCase() != "pizza") {
+function coffeeShop(foodname,itemName,quantity) {
+    if (foodname.toLowerCase() != "coffee") {
         return "sorry , we are sell only Pizza.";
 
     }
-    var price = 10 * quantity;
-    var massage = "Order successful! , Order info: '" + foodname + " , Price; " + price + "$";
+    var price = 2 * quantity;
+    var massage = "Order successful! , Order info: '" + foodname + " Item Name : "+ itemName + " , Price; " + price + "KD";
     return massage
 }
 
-console.log(pizzaPanda( "pizza" ,20 ) );
+console.log(coffeeShop("coffee" ,"torksh coffe", 20 ) );
