@@ -1,6 +1,6 @@
 function coffeeShop(foodname,itemName,quantity) {
     if (foodname.toLowerCase() != "coffee") {
-        return "sorry , we are sell only Pizza.";
+        return "sorry , we are sell only coffee.";
 
     }
     // if coffee don't have use this massge 
@@ -12,4 +12,4 @@ function coffeeShop(foodname,itemName,quantity) {
     return massage
 }
 
-console.log(coffeeShop("coffee" ,"torksh coffe", 9 ) );
+console.log(coffeeShop("coffee","tarkish", 4 ) );
